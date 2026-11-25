@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+}
+
+body{
+    background: linear-gradient(to top, #0f1e24, #3c6d7e, #29576b);
+     min-height: 100vh;
+}
+/*eikhane ami navbar er kaj korechi*/
+.container{
+    max-width:1140px;
+    margin: 0 auto;
+    
+}
+.nav-bar{
+   background:linear-gradient(to right, rgb(0, 0, 0),  blue);   
+    min-height:70px;
+    border-radius: 5px;
+}
+.nav-bar .main-colum{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.left-colum a{ 
+    text-decoration: none;
+    color: aliceblue;
+    margin-top:15px ;
+    display: inline-block;
+}
+.right-colum a{
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+}
+.right-colum a:hover {
+    text-decoration: underline;
+    color: aqua;
+    transform: translateY(-6px);
+}
+span{
+    color: aqua;
+}
+/*eikhane ami slider  er kaj korechi*/
+img{
+    width: 500px;
+    border-radius: 50%;
+   
+}
+.slider{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.slider .caption{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+p{
+    font-size: 20px;
+}
