@@ -15,6 +15,7 @@ body{
     margin: 0 auto;
     
 }
+
 .nav-bar{
    background:linear-gradient(to right, rgb(0, 0, 0),  blue);   
     min-height:70px;
@@ -24,9 +25,10 @@ body{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 }
-h2{
-    margin-left: 50px;
+h1{
+    margin-left: 40px;
     font-size: 30px;
+    padding-bottom: 10px;
 }
 .left-colum a{ 
     text-decoration: none;
@@ -52,7 +54,7 @@ span{
     color: aqua;
 }
 /*eikhane ami slider  er kaj korechi*/
-img{
+.slider img{
     width: 500px;
     border-radius: 50%;
    
@@ -72,4 +74,51 @@ img{
 }
 p{
     font-size: 20px;
+}
+
+/* Eita amar card section*/
+.skill {
+    display: flex;
+    justify-content: center;   
+}
+
+.skill h2 {
+    background-color: aqua;
+    padding: 10px 20px;        /* লেখার চারপাশে জায়গা */
+    border-radius: 5px;
+    box-shadow: 0 10px 12px navy;
+}
+.card{
+   display:flex;
+   justify-content: space-around;
+   margin-top: 150px;
+}
+
+.my-card {
+    width: 200px;
+     padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 11px blue;
+    background-color: aqua;
+    transition: all 0.3s ease;
+}
+.my-card:hover{
+    transform: translateY(-6px);
+}
+.my-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.my-card h3 img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.card-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
 }
