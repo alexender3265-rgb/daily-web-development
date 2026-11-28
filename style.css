@@ -122,3 +122,51 @@ p{
     justify-content: space-around;
     padding-top: 40px;
 }
+
+/* my conatct secrtion like.. email contact*/
+
+
+.contact{
+   margin: 100px;
+   width: 50%;
+   background-color: antiquewhite;
+   min-height: 40vh;
+    border-radius: 50px;
+}
+input{
+    padding: 20px;
+    width: 50%;
+    border-radius: 25px;
+    outline: none;
+    margin-left: 150px;
+}
+label{
+    display: block;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input:focus{
+    border-color: #3c6d7e;
+}
+.contact button{
+    margin-left:45%;
+    padding: 5px;
+    width: 80px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient( to top, rgba(56, 56, 134, 0.76), rgba(123, 59, 111, 0.066));
+    transition: background-position 0.4s ease, transform 0.2s ease;
+}
+button:hover{
+  transform: scale(1.05);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+}
